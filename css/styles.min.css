@@ -4135,3 +4135,194 @@ input[type=radio] {
     }
 }
 /*bgi*/
+
+/*page_serv*/
+.page-header.page_serv-ttl {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 33px;
+}
+.page_serv-top {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+}
+
+.page_serv-top a {
+    background: #fff;
+    border: 1px solid #eee;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 12px 29px 12px 15px;
+    transition: 0.3s;
+    margin-right: 31px;
+    margin-bottom: 15px;
+}
+.page_serv-top a:hover {
+    border: 1px solid #f3782a;
+    background: #f3782a;
+    color: #fff;
+    transition: 0.3s;
+}
+.page_serv-col {
+    padding: 0 20px;
+    width: 100%;
+    max-width: 330px;
+    margin-bottom: 30px;
+}
+.page_serv-row {
+    margin: 0 -20px;
+}
+.page_serv-bl {
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 20px 14px 0;
+}
+.page_serv-bl.purp {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.page_serv-bl-ttl {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    font-size: 21px;
+    padding: 10px 20px 9px 25px;
+    background-color: #f3782a;
+    margin-left: -26px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+.page_serv-bl-ttl:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-right-width: 12px;
+    border-right-style: solid;
+    position: absolute;
+    top: -12px;
+    left: 0;
+    border-right-color: #f05822;
+}
+.page_serv-bl.purp .page_serv-bl-ttl {
+    background-color: #605fa6;
+}
+.page_serv-bl.purp .page_serv-bl-ttl:after {
+    border-right-color: #48477d;
+}
+
+.page_serv-bl-inter {
+    display: inline-block;
+    width: 100%;
+    max-width: 243px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 6px 20px 8px 16px;
+    background-color: #f3782a;
+    margin-left: -15px;
+    margin-bottom: 9px;
+    position: relative;
+    font-size: 21px;
+}
+.page_serv-bl-inter:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 7px solid #fff;
+    border-right-width: 6px;
+    border-right-style: solid;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    border-right-color: transparent;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-left-color: transparent;
+}
+.page_serv-bl-dog {
+    display: inline-block;
+    width: 100%;
+    max-width: 275px;
+    text-transform: uppercase;
+    padding: 8px 20px 8px 10px;
+    margin-left: -15px;
+    position: relative;
+    font-size: 23px;
+}
+.page_serv-bl-dog:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 7px solid #000;
+    border-right-width: 6px;
+    border-right-style: solid;
+    position: absolute;
+    top: 14px;
+    right: 2px;
+    border-right-color: transparent;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-left-color: transparent;
+}
+.page_serv-bl-yours {
+    margin-left: -15px;
+    border: 1px solid #eee;
+    display: inline-block;
+    width: auto;
+    max-width: 244px;
+    padding: 6px 9px;
+    margin-bottom: 27px;
+    color: #a6a6a6;
+}
+.page_serv-bl-btm {
+    text-align: right;
+    padding: 17px 30px 17px 21px;
+    border-top: 1px solid #eee;
+    color: #a6a6a6;
+    margin: 26px -15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page_serv-bl-prc {
+    color: #000;
+}
+
+@media(max-width: 991px){
+    .page_serv-bl-prc {
+        font-size: 24px;
+    }
+
+    .page_serv-bl-prc .balance__ruble {
+        width: 14px;
+        margin-left: 3px;
+        margin-top: -4px;
+    }
+    .page_serv-top a {
+        font-size: 17px;
+        padding: 12px 21px 8px 12px;
+    }
+}
+@media(min-width: 1400px){
+    .page_serv-col {
+        max-width: 24%;
+    }
+
+    .page_serv-bl-ttl {
+        font-size: 1.1vw;
+    }
+    .page_serv-bl-prc {
+        font-size: 1.9vw;
+        color: #000;
+    }
+
+    .page_serv-bl-prc .balance__ruble {
+        width: 0.8vw;
+    }
+}
+/*bgi*/

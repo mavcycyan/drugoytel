@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    <title>Личный кабинет - Другой телеком</title>
+    <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="libs/metismenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css">
+    <link href="libs/roboto-fontface/css/roboto/roboto-fontface.css" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body cz-shortcut-listen="true">
+    <div class="container-fluide" id="wrapper">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">
+            <img src="images/DT_logo_GPON.png">
+          </div>
+        </div>
+        <ul class="nav navbar-top-links navbar-right">
+          <li class="support">
+            <a href="tel:88482580018" class="support__link">
+            <span class="support__label">техподдержка</span>
+            <span class="support__phone">58-00-18</span></a>
+          </li>
+          <li class="support">
+            <a href="tel:88482580050" class="support__link">
+            <span class="support__label">центр обслуживания клиентов</span>
+            <span class="support__phone">58-00-50, 58-00-08</span></a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="profile dropdown-toggle" data-toggle="dropdown">
+              <div class="profile__user"><span class="profile__name span">Тестовый-Офис Т.Т.</span>
+                <span class="profile__ls span">6300009999</span>
+              </div>
+              <i class="fa fa-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-user">
+              <li>
+                <a href="profile.html">
+                <i class="fa fa-user fa-fw"></i> Профиль</a>
+              </li>
+              <li class="divider">
+              </li>
+              <li class="user-binding">
+                <a href="#">6300009999</a>
+              </li>
+              <li class="user-binding">
+                <a href="#">Лицевой счет №8482580008</a>
+              </li>
+              <li class="divider">
+              </li>
+              <li>
+                <a href="#logout"><i class="fa fa-sign-out fa-fw"></i> Выход</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="navbar-default sidebar" role="navigation">
+          <div class="sidebar-nav navbar-collapse" aria-expanded="false">
+            <ul class="nav sidebar__list in" id="side-menu">
+              <li class="sidebar__item active">
+                <a href="balance-details.html" class="sidebar__link">
+                <i class="fa fa-bar-chart-o fa-fw sidebar__icon"></i> Баланс</a>
+              </li>
+              <li class="sidebar__item">
+                <a href="payments.html" class="sidebar__link">
+                <i class="fa fa-rub fa-fw sidebar__icon"></i> Оплата</a>
+              </li>
+              <li class="sidebar__item">
+                <a href="services.html" class="sidebar__link">
+                <i class="fa fa-cogs sidebar__icon" aria-hidden="true"></i> Услуги</a>
+                <ul class="nav nav-second-level collapse" aria-expanded="false">
+                  <li>
+                    <a href="my_services.html">Мои услуги</a>
+                  </li>
+                  <li>
+                    <a href="all_services.html">Все услуги</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar__item">
+                <a href="equipment.html" class="sidebar__link">
+                <i class="fa fa-signal sidebar__icon" aria-hidden="true"></i> Оборудование</a>
+              </li>
+              <li class="sidebar__item">
+                <a href="support.html" class="sidebar__link">
+                  <span class="sidebar__icon">
+                    <svg class="sidebar__icon-svg svg replaced-svg" data-name="Layer 1" height="20"
+                      id="Layer_1" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                          fill: #fff
+                          }
+                        </style>
+                      </defs>
+                      <title>help</title>
+                      <path class="cls-1"
+                        d="M18.13 347.69a4.1 4.1 0 0 0 .11.65l.05.26a8.09 8.09 0 0 0 .53 1.69c0 .09.07.17.1.24s.17.38.27.57.09.17.14.26.22.38.34.57a1 1 0 0 0 .12.17.6.6 0 0 0 0 .05.09.09 0 0 1 0 .05 9.56 9.56 0 0 0 .93 1.13.44.44 0 0 0 .09.09l.21.21a.41.41 0 0 1 .09.08 10.63 10.63 0 0 0 1.17 1 .08.08 0 0 0 .05 0c.26.17.53.33.79.48l.17.09a4.35 4.35 0 0 0 .65.31l.19.09a10 10 0 0 0 1.72.53l.22.05c.22 0 .45.09.69.1h.26a8 8 0 0 0 .91.05 9.86 9.86 0 0 0 5.59-1.72 6.4 6.4 0 0 0 .69-.52l.1-.09.46-.43.36-.36c.09-.09.16-.19.24-.28a2.38 2.38 0 0 0 .26-.31c.17-.21.32-.41.48-.64a9.93 9.93 0 0 0 1.89-5.57 7.75 7.75 0 0 0-.05-.91 1.3 1.3 0 0 0 0-.26l-.1-.69-.05-.22a9.92 9.92 0 0 0-.53-1.72l-.09-.19-.31-.65c0-.05-.05-.12-.09-.17-.15-.27-.31-.53-.48-.79l-.05-.05-.38-.52a.1.1 0 0 1 0-.05 10 10 0 0 0-1.53-1.53.11.11 0 0 0-.05 0c-.16-.12-.31-.24-.46-.34a.09.09 0 0 0-.05 0h-.05l-.17-.1c-.19-.12-.38-.24-.59-.34l-.26-.14c-.19-.1-.38-.19-.57-.28l-.24-.1a11.27 11.27 0 0 0-1.7-.53l-.26-.05-.67-.1H29a7.9 7.9 0 0 0-1-.26 9.93 9.93 0 0 0-5.64 1.75 6.48 6.48 0 0 0-.53.4 10 10 0 0 0-1.53 1.53c-.15.19-.31.38-.45.58a9.94 9.94 0 0 0-1.85 5.71 7.69 7.69 0 0 0 .05.91 1.24 1.24 0 0 1 .07.31zm4.63 5.56l-.67-.57-.22-.22a5.93 5.93 0 0 1-.55-.62l2.68-2.68a4.87 4.87 0 0 0 1.43 1.41zm1.86-6.74a3.69 3.69 0 0 1 .21-1.17A1.94 1.94 0 0 1 25 345a2.64 2.64 0 0 1 .17-.31 3.47 3.47 0 0 1 1.65-1.36 3.21 3.21 0 0 1 1.22-.22 2.16 2.16 0 0 1 .33 0 .87.87 0 0 1 .21 0h.1a1.42 1.42 0 0 1 .28.07 1.8 1.8 0 0 1 .29.1 3.44 3.44 0 0 1 2 2 1.49 1.49 0 0 1 .09.27l.05.26v.29a1.65 1.65 0 0 1 0 .31 3.6 3.6 0 0 1-.22 1.22 3.32 3.32 0 0 1-1.36 1.65 2.58 2.58 0 0 1-.31.17l-.33.14a3.31 3.31 0 0 1-1.17.21 2 2 0 0 1-.31 0 .76.76 0 0 1-.19 0h-.1l-.26-.05-.27-.09a3.39 3.39 0 0 1-2-2l-.1-.29c0-.08-.05-.17-.07-.27s0-.07 0-.1v-.21a.63.63 0 0 1-.05-.31zm3.38 8.58h-.95c-.26 0-.5-.07-.74-.12h-.12l-.71-.17h-.07c-.24-.07-.48-.17-.72-.26l-.1-.05a6.49 6.49 0 0 1-.71-.34l2.87-2.87h.05l.48.1h.69a4.72 4.72 0 0 0 1.22-.15l2.87 2.87a8.53 8.53 0 0 1-4.08 1zm6.67-3.2l-.31.34-.21.22-.21.21a4.6 4.6 0 0 1-.43.4l-.12.1-.11.09-2.7-2.68.36-.26a5.12 5.12 0 0 0 1-1.1l2.68 2.68a.42.42 0 0 1 0 .05zm.86-9.48c.12.22.24.46.35.71l.05.1a6 6 0 0 1 .26.72.41.41 0 0 1 0 .07c.07.22.14.46.19.7v.12c.05.24.09.5.12.74v.95a8.69 8.69 0 0 1-1.07 4.14l-2.87-2.87a4.61 4.61 0 0 0 .17-1.29v-.68a2.53 2.53 0 0 0-.1-.5zm-2.2-2.61l1.38 1.38-2.68 2.7a4.81 4.81 0 0 0-1.41-1.43zM28 337.93h.79l.21.07c.26 0 .5.07.74.12h.12l.65.17h.12a4.84 4.84 0 0 1 .69.26l.15.07c.19.09.39.17.59.27l.1.05-2.85 2.86a.06.06 0 0 1-.05 0 2.76 2.76 0 0 0-.52-.1H28a5.28 5.28 0 0 0-1.29.17L23.9 339a8.51 8.51 0 0 1 4.1-1.07zm-6.71 3.27l1.39-1.39 2.68 2.68a4.73 4.73 0 0 0-1.1 1l-.26.36-2.7-2.68zm-.82 1.22l2.87 2.87a4.72 4.72 0 0 0-.15 1.22v.74l.1.52a.06.06 0 0 0 0 .05l-2.85 2.84-.05-.12c-.1-.19-.19-.38-.27-.57s-.05-.1-.07-.15c-.09-.22-.17-.45-.26-.69v-.14c-.07-.21-.12-.43-.17-.64v-.12c-.05-.24-.08-.48-.12-.74v-.96a8.44 8.44 0 0 1 1.05-4.08zm0 0"
+                        transform="translate(-18.02 -336.5)"></path>
+                    </svg>
+                  </span>
+                  Техподдержка
+                </a>
+              </li>
+              <li class="sidebar__item">
+                <a href="#" class="sidebar__link">
+                <i class="fa fa-wifi sidebar__icon" aria-hidden="true"></i> Wi-Fi</a>
+                <ul class="nav nav-second-level collapse" aria-expanded="false">
+                  <li>
+                    <a href="wifi.html">Карта Wi-Fi free</a>
+                  </li>
+                  <li>
+                    <a href="wifi-auth.html">Авторизация Wi-Fi</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sidebar__item">
+                <a href="messages.html" class="sidebar__link">
+                <i class="fa fa-envelope-o fa-fw sidebar__icon"></i>
+                <span class="message__counter">Сообщения<span class="message__count">55</span></span>
+                </a>
+              </li>
+              <li class="sidebar__item">
+                <a href="coupons.html" class="sidebar__link">
+                <i class="fa fa-map-o fa-fw sidebar__icon"></i><span class="message__counter">Купоны<span class="message__count">1</span></span></a>
+              </li>
+            </ul>
+            <div class="navbar__documents">
+              <a href="#" class="navbar__document" target="_blank">Публичная оферта</a>
+              <a href="#" class="navbar__document" target="_blank">Условия оказания услуг связи</a>
+            </div>
+            <div class="navbar__license">Лицензии: №175450, 175451, 175452, 175453, 175454 <span>от 22 апреля
+              2015г.</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="page-wrapper" class="page_serv">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="page-header page_serv-ttl">Мои услуги</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page_serv-top">
+              <a href="#">Интернет</a>
+              <a href="#">Телефония</a>
+              <a href="#">Телевидение</a>
+              <a href="#">WI - FI</a>
+            </div>
+          </div>
+        </div>
+        <div class="row flex page_serv-row">
+          <div class="page_serv-col">
+            <div class="page_serv-bl purp">
+              <div class="page_serv-bl-ttl">
+                Договор № 05-2016-АК <br>
+                Лицевой счет №: 10006094
+              </div>
+              <div class="page_serv-bl-dog">
+                Основной договор
+              </div>
+              <div class="page_serv-bl-yours">Твой телефон</div>
+              <div class="page_serv-bl-inter">
+                Интернет
+              </div>
+              <div class="page_serv-bl-txt">Доступ в интернет - 10 Мбит/с</div>
+              <div class="page_serv-bl-btm">
+                <div class="page_serv-bl-abon">Абонентская плата</div>
+                <div class="page_serv-bl-prc">1200 <img src="images/rouble-dark.svg" class="balance__ruble"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <p>За период</p>
+            <form class="form-inline">
+              <div class="form-group">
+                <div class="input-daterange input-group" id="datepicker">
+                  <div class="input-group-addon">с</div>
+                  <input class="form-control input-datepicker"
+                    name="start">
+                  <div class="input-group-addon input-group-addon--center">по</div>
+                  <input
+                    class="form-control input-datepicker" name="end">
+                </div>
+              </div>
+              <button class="form-inline__btn form-control" type="button">Показать</button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="table__wrap">
+              <table class="table table--on-page table__call-detail">
+                <thead>
+                  <tr>
+                    <td>Дата</td>
+                    <td class="hidden-xs">Услуга</td>
+                    <td class="nowrap hidden-xs">Кол-во</td>
+                    <td class="hidden-xs">Период</td>
+                    <td class="hidden-xs">Примечание</td>
+                    <td class="text-right nowrap">Приход<span class="hidden-xs">, <img
+                      src="images/rouble-dark.svg" class="table__ruble"></span></td>
+                    <td class="text-right nowrap">Расход<span class="hidden-xs">, <img
+                      src="images/rouble-dark.svg" class="table__ruble"></span></td>
+                    <td class="text-right nowrap">Баланс<span class="hidden-xs">, <img
+                      src="images/rouble-dark.svg" class="table__ruble"></span></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>01.09.2019</td>
+                    <td class="hidden-xs">Конечный остаток</td>
+                    <td class="hidden-xs">
+                    </td>
+                    <td class="nowrap hidden-xs">
+                    </td>
+                    <td class="hidden-xs"> </td>
+                    <td class="nowrap text-right"></td>
+                    <td class="nowrap text-right"></td>
+                    <td class="nowrap text-right">-12,706.00</td>
+                  </tr>
+                  <tr>
+                    <td>31.08.2019</td>
+                    <td class="hidden-xs">Бандл Твой Максимальный (Megogo)</td>
+                    <td class="hidden-xs">
+                    </td>
+                    <td class="nowrap hidden-xs">31.08
+                      <span>-</span> 30.09.2019
+                    </td>
+                    <td class="hidden-xs"> </td>
+                    <td class="nowrap text-right"></td>
+                    <td class="nowrap text-right">790.00</td>
+                    <td class="nowrap text-right">-12,706.00</td>
+                  </tr>
+                  <tr>
+                    <td>01.08.2019</td>
+                    <td class="hidden-xs">Начальный остаток</td>
+                    <td class="hidden-xs">
+                    </td>
+                    <td class="nowrap hidden-xs">
+                    </td>
+                    <td class="hidden-xs"> </td>
+                    <td class="nowrap text-right">-11,916.00</td>
+                    <td class="nowrap text-right"></td>
+                    <td class="nowrap text-right">-11,916.00</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td class="hidden-xs">Итого</td>
+                    <td class="hidden-xs">
+                    </td>
+                    <td class="nowrap hidden-xs">
+                    </td>
+                    <td class="hidden-xs"> </td>
+                    <td class="nowrap text-right">-11,916.00</td>
+                    <td class="nowrap text-right">790.00</td>
+                    <td class="nowrap text-right">-12,706.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="banner">
+              <a href="#" target="about:blank"><img src="images/c96fbd00-ec8c-11e8-8a28-1b949d2f05b8.jpeg"
+                class="img-responsive"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js"></script>
+    <script src="js/clockpicker/bootstrap-clockpicker.min.js"></script>
+    <script src="libs/metismenu/dist/metisMenu.min.js"></script>
+    <script src="libs/moment/min/moment.min.js"></script>
+    <script src="libs/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
