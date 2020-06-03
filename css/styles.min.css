@@ -4292,6 +4292,10 @@ input[type=radio] {
 .page_serv-bl-prc {
     color: #000;
 }
+.page_serv td {
+    font-weight: 400!important;
+    min-height: 36px;
+}
 
 @media(max-width: 991px){
     .page_serv-bl-prc {
